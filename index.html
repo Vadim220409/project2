@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <img src="./imgs/logo-1.svg" alt="" class="header-logo">
+        <div class="header-container">
+            <h1 class="header-title">FIND BEST EVENTS AROUND THE WORLD</h1>
+        </div>
+        <div class="header-search">
+            <input type="text" placeholder="Start searching" class="inpt-searching"><img src="./imgs/Vector.svg" alt="" class="svg-searching">
+            <button class="choose-btn">Choose country</button><img src="./imgs/Polygon 1.svg" alt="" class="svg-choose">
+            <div class="country-list">
+                <div data-country="US">United States</div>
+                <div data-country="CA">Canada</div>
+                <div data-country="UK">United Kingdom</div>
+                <div data-country="AU">Australia</div>
+                <div data-country="DE">Germany</div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="modal">
+            <button class="close-modal-btn"><img src="./imgs/close.png" alt=""></button>
+            <div class="img-modal"></div>
+            <div class="modal-info">
+                <h2 class="modal-title"></h2>
+                <div class="info-section">
+                    <p class="info-title">INFO</p>
+                    <p class="info-text"></p>
+                </div>
+                <div class="info-section">
+                    <p class="info-title">WHEN</p>
+                    <p class="when-text"></p>
+                </div>
+                <div class="info-section">
+                    <p class="info-title">WHERE</p>
+                    <p class="where-text"></p>
+                </div>
+                <div class="info-section">
+                    <p class="info-title">WHO</p>
+                    <p class="who-text"></p>
+                </div>
+                <div class="info-section">
+                    <p class="info-title">PRICES</p>
+                    <p class="prices-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="main-event">
+                <div class="main-img"></div>
+                <h3 class="event-title">Eurovision 2021 finals!</h3>
+                <p class="event-date">2021-05-13</p>
+                <p class="event-place">Palace of Ukraine</p>
+            </div> 
+        </div>
+        <div class="slides">
+            <button class="slide" data-page="0">1</button>
+            <button class="slide" data-page="1">2</button>
+            <button class="slide" data-page="2">3</button>
+            <button class="slide" data-page="3">4</button>
+            <button class="slide" data-page="4">5</button>
+            <button class="slide" data-page="5">6</button>
+            <button class="slide" data-page="6">7</button>
+        </div>
+    </main>
+    <footer>
+        <p class="footer-text">© 2021 | All Rights Reserved | Developed with ♥ by GoIT Students</p>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
